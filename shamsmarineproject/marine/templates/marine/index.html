@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Shams-Marine</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'assets/img/logo.png' %}" rel="icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/remixicon/remixicon.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'assets/css/style.css' %}" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Gp
+  * Updated: Sep 18 2023 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-lg-between">
+
+      <h1 class="logo me-auto me-lg-0"><a href="index.html">Shams<span>-Marine</span></a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto " href="#portfolio">Gallery</a></li>
+          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+<!--          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="fa fa-chevron-down"></i></a>-->
+<!--            <ul>-->
+<!--              <li><a href="#">Drop Down 1</a></li>-->
+<!--              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="fa fa-chevron-right"></i></a>-->
+<!--                <ul>-->
+<!--                  <li><a href="#">Deep Drop Down 1</a></li>-->
+<!--                  <li><a href="#">Deep Drop Down 2</a></li>-->
+<!--                  <li><a href="#">Deep Drop Down 3</a></li>-->
+<!--                  <li><a href="#">Deep Drop Down 4</a></li>-->
+<!--                  <li><a href="#">Deep Drop Down 5</a></li>-->
+<!--                </ul>-->
+<!--              </li>-->
+<!--              <li><a href="#">Drop Down 2</a></li>-->
+<!--              <li><a href="#">Drop Down 3</a></li>-->
+<!--              <li><a href="#">Drop Down 4</a></li>-->
+<!--            </ul>-->
+<!--          </li>-->
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="fa fa-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+<!--      <a href="#about" class="get-started-btn scrollto">Get Started</a>-->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center justify-content-center">
+    <div class="container" data-aos="fade-up" style="background-image: url({% static 'assets/img/gallery/BG1.jpg' %}); width: max-content;">
+
+      <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
+        <div class="col-xl-6 col-lg-8">
+          <h1>A trusted seafaring partner for your journey<span>.</span></h1>
+          <h2>We are the team of pioneer in Ship Maintenance</h2>
+        </div>
+      </div>
+
+      <div class="row gy-4 mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
+        <div class="col-xl-2 col-md-4">
+          <div class="icon-box">
+            <i class="ri-store-line"></i>
+            <h3><a href="#about">About</a></h3>
+          </div>
+        </div>
+        <div class="col-xl-2 col-md-4">
+          <div class="icon-box">
+            <i class="ri-bar-chart-box-line"></i>
+            <h3><a href="#services">Our Services</a></h3>
+          </div>
+        </div>
+        <div class="col-xl-2 col-md-4">
+          <div class="icon-box">
+            <i class="ri-calendar-todo-line"></i>
+            <h3><a href="#team">Our Leaders</a></h3>
+          </div>
+        </div>
+        <div class="col-xl-2 col-md-4">
+          <div class="icon-box">
+            <i class="ri-paint-brush-line"></i>
+            <h3><a href="#team">Our Team</a></h3>
+          </div>
+        </div>
+<!--        <div class="col-xl-2 col-md-4">-->
+<!--          <div class="icon-box">-->
+<!--            <i class="ri-database-2-line"></i>-->
+<!--            <h3><a href="">Nemos Enimade</a></h3>-->
+<!--          </div>-->
+<!--        </div>-->
+      </div>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+            <img src="{% static 'assets/img/gallery/WhatsApp Image 2023-11-09 at 20.06.18_766575d4.jpg' %}" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+            <h3>ABOUT US</h3>
+            <p class="fst-italic">
+              Welcome to Shams Marine, your trusted partner in marine ship maintenance services. With a commitment to excellence and a passion for preserving the integrity of vessels at sea, we stand at the forefront of the maritime industry.</p>
+            <p class="fst-italic">
+              Presently we are leading in maintenance, cleaning & empty parking of ISO Tanks and Dry van containers at Kandla, Gandhidham as <a href="http://jammylogistics.com/" target="_blank">“JAMMY LOGISTICS"</a>
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> Ship Repair </li>
+              <li><i class="ri-check-double-line"></i> Cargo lifting gears </li>
+              <li><i class="ri-check-double-line"></i> Project Cargo Lashing, securing and welding</li>
+              <li><i class="ri-check-double-line"></i> Cargo Grab repairing </li>
+            </ul>
+            <p>
+<!--              Content-->
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="clients-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="{% static 'assets/img/clients/client-1.png' %}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{% static 'assets/img/clients/client-2.png' %}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{% static 'assets/img/clients/client-3.png' %}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{% static 'assets/img/clients/client-4.png' %}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{% static 'assets/img/clients/client-5.png' %}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{% static 'assets/img/clients/client-6.png' %}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{% static 'assets/img/clients/client-7.png' %}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{% static 'assets/img/clients/client-8.png' %}" class="img-fluid" alt=""></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Clients Section -->
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="image col-lg-6" style="background-image: url({% static 'assets/img/gallery/WhatsApp Image 2023-11-09 at 20.06.11_9acdb33c.jpg' %});" data-aos="fade-right"></div>
+
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
+            <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
+              <i class="fa fa-receipt"></i>
+              <h4>Our Mission</h4>
+              <p>At Shams Marine, we understand the vital role that ships and vessels play in global trade, transportation,
+                and security. Our mission is to provide comprehensive and environmentally responsible ship maintenance solutions that enhance the longevity, safety, and performance of maritime assets.</p>
+            </div>
+            <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
+              <i class="fa fa-cube"></i>
+              <h4>Expertise and Experience</h4>
+              <p>Our team of dedicated professionals brings a wealth of knowledge and experience to the table. We specialize in the maintenance of all types of vessels, from cargo ships and container carriers to offshore platforms and cruise liners. With an unwavering commitment to quality and safety, we have earned the trust of clients worldwide.</p>
+            </div>
+            <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
+              <i class="fa fa-images"></i>
+              <h4>Client Centric Approach</h4>
+              <p>We take pride in putting our clients first. Our team works closely with shipowners and operators to tailor solutions that meet their specific needs, schedules, and budgets. We believe in building long-lasting partnerships based on trust, reliability, and open communication.</p>
+            </div>
+            <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
+              <i class="fa fa-shield"></i>
+              <h4>Eco Friendly Approach</h4>
+              <p>We take our responsibility to protect the marine environment seriously. Shams Marine embraces eco-friendly practices and utilizes cutting-edge technologies to ensure that our services have a minimal impact on the ocean and marine life. We comply with all relevant environmental regulations and standards.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Comprehensive Services</h2>
+          <p>Check our Services</p>
+        </div>
+
+        <div class="row">
+<!--          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">-->
+<!--            <div class="icon-box">-->
+<!--              <div class="icon"><i class="fa fa-cubes"></i></div>-->
+<!--              <h4><a href="">Hull Cleaning</a></h4>-->
+<!--              <p>Our experts use advanced cleaning techniques to remove fouling, algae, and other contaminants from the hull, improving fuel efficiency and vessel performance.</p>-->
+<!--            </div>-->
+<!--          </div>-->
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+    <div class="icon-box">
+        <div class="icon">
+            <!-- Circular Image Container -->
+            <div class="swiper-container">
+    <div class="swiper-wrapper">
+        <!-- Slide 1 -->
+        <div class="swiper-slide">
+            <div class="circle-container">
+                <img class="circle-image" src="{% static 'assets/img/hero-bg.jpg' %}" alt="Slide 1">
+            </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="swiper-slide">
+            <div class="circle-container">
+                <img class="circle-image" src="{% static 'assets/img/hero-bg.jpg' %}" alt="Slide 2">
+            </div>
+        </div>
+    </div>
+
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+</div>
+        </div>
+        <h4><a href="#">Ship Repair</a></h4>
+        <p>Our ship repair services encompass a comprehensive range of solutions to ensure the optimal functioning and longevity of maritime vessels. From routine maintenance to emergency repairs, our skilled team is equipped to handle a variety of issues, contributing to the safety and efficiency of your fleet.</p>
+    </div>
+</div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="fa fa-eraser"></i></div>
+              <h4><a href="">Cargo Lifting Gears</a></h4>
+              <p>We specialize in the inspection, maintenance, and repair of cargo lifting gears, including cranes and hoists. Our services ensure that your lifting equipment operates smoothly and adheres to industry standards, promoting a secure and efficient cargo handling process.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="fa fa-lock"></i></div>
+              <h4><a href="">Project Cargo Lashing, Securing, and Welding</a></h4>
+              <p>Safely securing project cargo is paramount to successful transport. Our experts specialize in lashing and securing project cargo to prevent shifting during transit. Additionally, our welding services provide durable and reliable solutions for customized cargo configurations, ensuring the integrity of your shipments.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="fa fa-users"></i></div>
+              <h4><a href="">Cargo Grab Repairing</a></h4>
+              <p>Efficient cargo handling relies on well-maintained grabs. Our cargo grab repairing services cover a spectrum of issues, from routine maintenance to intricate repairs. We prioritize the swift and precise restoration of your cargo grabs, promoting uninterrupted loading and unloading operations.</p>
+            </div>
+          </div>
+
+<!--          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">-->
+<!--            <div class="icon-box">-->
+<!--              <div class="icon"><i class="bx bx-arch"></i></div>-->
+<!--              <h4><a href="">Divera don</a></h4>-->
+<!--              <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>-->
+<!--            </div>-->
+<!--          </div>-->
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="text-center">
+          <h3>Call To Action</h3>
+          <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <a class="cta-btn" href="#">Call To Action</a>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Gallery</h2>
+          <p>Check our Gallery</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-web">Web</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="{% static 'assets/img/gallery/WhatsApp Image 2023-11-09 at 20.06.11_9acdb33c.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 1</h4>
+                <p>App</p>
+                <div class="portfolio-links">
+                  <a href="{% static 'assets/img/gallery/WhatsApp Image 2023-11-09 at 20.06.11_9acdb33c.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="fa fa-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="fa fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="{% static 'assets/img/gallery/WhatsApp Image 2023-11-09 at 20.06.17_84e24312.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="{% static 'assets/img/gallery/WhatsApp Image 2023-11-09 at 20.06.17_84e24312.jpg.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="fa fa-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="fa fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="{% static 'assets/img/gallery/WhatsApp Image 2023-11-09 at 20.06.17_e294bebe.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 2</h4>
+                <p>App</p>
+                <div class="portfolio-links">
+                  <a href="{% static 'assets/img/gallery/WhatsApp Image 2023-11-09 at 20.06.17_e294bebe.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="fa fa-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="fa fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="{% static 'assets/img/gallery/WhatsApp Image 2023-11-09 at 20.06.18_766575d4.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Card 2</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a href="{% static 'assets/img/gallery/WhatsApp Image 2023-11-09 at 20.06.18_766575d4.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="fa fa-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="fa fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="{% static 'assets/img/gallery/WhatsApp Image 2023-11-09 at 20.06.18_fbd2f31b.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Web 2</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="{% static 'assets/img/gallery/WhatsApp Image 2023-11-09 at 20.06.18_fbd2f31b.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="fa fa-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="fa fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="{% static 'assets/img/gallery/WhatsApp Image 2023-11-09 at 20.06.19_76f63fc3.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 3</h4>
+                <p>App</p>
+                <div class="portfolio-links">
+                  <a href="{% static 'assets/img/gallery/WhatsApp Image 2023-11-09 at 20.06.19_76f63fc3.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="fa fa-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="fa fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="{% static 'assets/img/gallery/WhatsApp Image 2023-11-09 at 20.06.19_9198c83a.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Card 1</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a href="{% static 'assets/img/gallery/WhatsApp Image 2023-11-09 at 20.06.19_9198c83a.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="fa fa-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="fa fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="{% static 'assets/img/gallery/WhatsApp Image 2023-11-09 at 20.06.19_bb130b49.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Card 3</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a href="{% static 'assets/img/gallery/WhatsApp Image 2023-11-09 at 20.06.19_bb130b49.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="fa fa-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="fa fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="{% static 'assets/img/gallery/WhatsApp Image 2023-11-09 at 20.06.20_c581ba1e.jpg' %}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="{% static 'assets/img/gallery/WhatsApp Image 2023-11-09 at 20.06.20_c581ba1e.jpg' %}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="fa fa-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="fa fa-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row no-gutters">
+          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right" data-aos-delay="100"></div>
+          <div class="col-xl-7 ps-4 ps-lg-5 pe-4 pe-lg-1 d-flex align-items-stretch" data-aos="fade-left" data-aos-delay="100">
+            <div class="content d-flex flex-column justify-content-center">
+              <h3>Voluptatem dignissimos provident quasi</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+              </p>
+              <div class="row">
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="fa fa-users"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="65" data-purecounter-duration="2" class="purecounter"></span>
+                    <p><strong>Happy Clients</strong> consequuntur voluptas nostrum aliquid ipsam architecto ut.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="fa fa-book"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="2" class="purecounter"></span>
+                    <p><strong>Projects</strong> adipisci atque cum quia aspernatur totam laudantium et quia dere tan</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="fa fa-clock"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="35" data-purecounter-duration="4" class="purecounter"></span>
+                    <p><strong>Years of experience</strong> aut commodi quaerat modi aliquam nam ducimus aut voluptate non vel</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="fa fa-award"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="4" class="purecounter"></span>
+                    <p><strong>Awards</strong> rerum asperiores dolor alias quo reprehenderit eum et nemo pad der</p>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End .content-->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="{% static 'assets/img/testimonials/testimonials-1.jpg' %}" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
+                <p>
+                  <i class="fas fa-quote-left quote-icon-left"></i>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="fas fa-quote-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="{% static 'assets/img/testimonials/testimonials-2.jpg' %}" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+                <p>
+                  <i class="fas fa-quote-left quote-icon-left"></i>
+                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  <i class="fas fa-quote-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="{% static 'assets/img/testimonials/testimonials-3.jpg' %}" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+                <p>
+                  <i class="fas fa-quote-left quote-icon-left"></i>
+                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  <i class="fas fa-quote-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="{% static 'assets/img/testimonials/testimonials-4.jpg' %}" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+                <p>
+                  <i class="fas fa-quote-left quote-icon-left"></i>
+                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  <i class="fas fa-quote-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="{% static 'assets/img/testimonials/testimonials-5.jpg' %}" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+                <p>
+                  <i class="fas fa-quote-left quote-icon-left"></i>
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                  <i class="fas fa-quote-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Team</h2>
+          <p>Check our Team</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="{% static 'assets/img/team/team-1.jpg' %}" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                  <a href=""><i class="fab fa-facebook"></i></a>
+                  <a href=""><i class="fab fa-instagram"></i></a>
+                  <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Mr. Haji Bapda</h4>
+                <span>Founder</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="200">
+              <div class="member-img">
+                <img src="{% static 'assets/img/team/team-2.jpg' %}" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                  <a href=""><i class="fab fa-facebook"></i></a>
+                  <a href=""><i class="fab fa-instagram"></i></a>
+                  <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Mr. Hamza Rawther</h4>
+                <span>Founder</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+              <div class="member-img">
+                <img src="{% static 'assets/img/team/team-3.jpg' %}" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                  <a href=""><i class="fab fa-facebook"></i></a>
+                  <a href=""><i class="fab fa-instagram"></i></a>
+                  <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Mr. Sadik Khatri</h4>
+                <span>Director</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="400">
+              <div class="member-img">
+                <img src="{% static 'assets/img/team/team-4.jpg' %}" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                  <a href=""><i class="fab fa-facebook"></i></a>
+                  <a href=""><i class="fab fa-instagram"></i></a>
+                  <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Mr. Ahmed</h4>
+                <span>Operational Manager</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="400">
+              <div class="member-img">
+                <img src="{% static 'assets/img/team/team-3.jpg' %}" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                  <a href=""><i class="fab fa-facebook"></i></a>
+                  <a href=""><i class="fab fa-instagram"></i></a>
+                  <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Mr. Jammy Bapda</h4>
+                <span>Supervisor</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="400">
+              <div class="member-img">
+                <img src="{% static 'assets/img/team/team-4.jpg' %}" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                  <a href=""><i class="fab fa-facebook"></i></a>
+                  <a href=""><i class="fab fa-instagram"></i></a>
+                  <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Mrs. Shahina</h4>
+                <span>Engineer</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Contact Us</p>
+        </div>
+
+        <div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d993.2069075792236!2d70.1501111!3d23.0332778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjPCsDAxJzU5LjgiTiA3MMKwMDknMDAuNCJF!5e1!3m2!1sen!2sin!4v1699549508473!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="row mt-5">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="fa fa-map-marker"></i>
+                <h4>Location:</h4>
+                <p>Survey No:-155/1, KASEZ to Kandla Port Road, Gandhidham-Kutuch, Gujarat - 370201</p>
+              </div>
+
+              <div class="email">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <h4>Email:</h4>
+                <p>shamsmarine.india@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="fa fa-phone"></i>
+                <h4>Call:</h4>
+                <p>+91 99099 87361</p>
+                <p>+91 94477 03032</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              {% csrf_token %}
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Phone number" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>Shams-<span>Marine.</span></h3>
+              <p>
+                Kandla, Gujarat <br>
+                Gujarat, India<br><br>
+
+                <strong>Phone:</strong>
+                <a rel="nofollow" href="tel:02836 296201" class="item-link">
+                  +91 81538 82777<br>
+                </a>
+
+                <strong>Email:</strong>
+                <a rel="nofollow" href="mailto:shamsmarine.india@gmail.com" class="item-link">
+                  shamsmarine.india@gmail.com<br>
+                </a>
+
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                <a href="#" class="facebook"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                <a href="#" class="instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                <a href="#" class="google-plus"><i class="fab fa-skype" aria-hidden="true"></i></a>
+                <a href="#" class="linkedin"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="fa fa-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="fa fa-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="fa fa-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="fa fa-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="fa fa-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+<!--          <div class="col-lg-3 col-md-6 footer-links">-->
+<!--            <h4>Our Services</h4>-->
+<!--            <ul>-->
+<!--              <li><i class="fa fa-chevron-right"></i> <a href="#">Web Design</a></li>-->
+<!--              <li><i class="fa fa-chevron-right"></i> <a href="#">Web Development</a></li>-->
+<!--              <li><i class="fa fa-chevron-right"></i> <a href="#">Product Management</a></li>-->
+<!--              <li><i class="fa fa-chevron-right"></i> <a href="#">Marketing</a></li>-->
+<!--              <li><i class="fa fa-chevron-right"></i> <a href="#">Graphic Design</a></li>-->
+<!--            </ul>-->
+<!--          </div>-->
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Enter your mail address to get updates from our end!</p>
+            <form action="" method="post">
+              {% csrf_token %}
+              <input type="email" name="email" placeholder="Enter your Email"><input type="submit" value="Subscribe">
+            </form>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <span id="currentYear"></span>
+        <strong>
+          <span>Shams-Marine-Group</span>
+        </strong>.
+        All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/ -->
+        Designed by <a href="#">Shams Marine Lab</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
+    <i class="fa fa-arrow-up"></i>
+  </a>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'assets/vendor/purecounter/purecounter_vanilla.js' %}"></script>
+  <script src="{% static 'assets/vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/php-email-form/validate.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'assets/js/main.js' %}"></script>
+
+</body>
+
+</html>
+
+<script>
+  var currentYear = new Date().getFullYear();
+  document.getElementById("currentYear").textContent = currentYear;
+</script>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    });
+</script>
